@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Restaurant</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showCategory('appetizers')">Appetizers</a></li>
+            <li><a href="#" onclick="showCategory('mains')">Main Courses</a></li>
+            <li><a href="#" onclick="showCategory('desserts')">Desserts</a></li>
+            <li><a href="#" onclick="showCategory('drinks')">Drinks</a></li>
+        </ul>
+    </nav>
+    <section id="menu">
+        <div id="appetizers" class="menu-category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <h3>Spring Rolls</h3>
+                <p>Delicious spring rolls filled with vegetables and served with dipping sauce.</p>
+                <span>150/-</span>
+            </div>
+            <div class="menu-item">
+                <h3>Garlic Bread</h3>
+                <p>Toasted garlic bread with a side of marinara sauce.</p>
+                <span>120/-</span>
+            </div>
+        </div>
+        <div id="mains" class="menu-category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <h3>Grilled Chicken</h3>
+                <p>Juicy grilled chicken served with steamed vegetables and mashed potatoes.</p>
+                <span>250/-</span>
+            </div>
+            <div class="menu-item">
+                <h3>Paneer Butter Masala</h3>
+                <p>Classic Italian pasta with creamy sauce, bacon, and Parmesan cheese.</p>
+                <span>180/-</span>
+            </div>
+        </div>
+        <div id="desserts" class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <h3>Chocolate Cake</h3>
+                <p>Rich and moist chocolate cake with a fudge frosting.</p>
+                <span>130/-</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cheesecake</h3>
+                <p>Creamy cheesecake with a graham cracker crust and strawberry topping.</p>
+                <span>130/-</span>
+            </div>
+        </div>
+        <div id="drinks" class="menu-category">
+            <h2>Drinks</h2>
+            <div class="menu-item">
+                <h3>Coffee</h3>
+                <p>Freshly brewed coffee.</p>
+                <span>30/-</span>
+            </div>
+            <div class="menu-item">
+                <h3>Iced Tea</h3>
+                <p>Refreshing iced tea with a hint of lemon.</p>
+                <span>30/-</span>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
