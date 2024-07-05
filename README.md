@@ -1,6 +1,6 @@
 # Restaurant Menu
 
-This project is a simple restaurant menu web page created using HTML, CSS, and JavaScript. It allows users to navigate through different categories of the menu, such as Chinese Starters, Main Courses, Desserts, and Drinks.
+This project is a simple restaurant menu web page created using HTML, CSS, and JavaScript. It allows users to navigate through different categories of the menu, such as Appetizers, Main Courses, Desserts, and Drinks.
 
 ## Features
 
